@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %} Students Result{% endblock %}
+{% block content %}
+
+{% if msg %}
+<script>
+    alert("{{msg}}")
+</script>
+{% endif %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Course</th>
+            <th scope="col">Contact</th>
+            <th scope="col"> Percentage</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if students %}
+            {% for student in students %}
+                {% for t in student[name] %}
+        <tr role="row" class="odd">
+            `
+            <td data-title="Name">{{student['name']}}</td>
+            <td data-title="Course">{{student['level']}}</td>
+            <td data-title="Phone">{{student['phone']}}</td>
+            <form action="" method="post" target="_blank">
+                <td data-title="Percentage">
+                    <center>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="score"
+                            placeholder="Score"
+                            value="{{ student[name][0] / student[name][1]  * 100 }}"
+                            readonly=""
+                            style="width:100px"
+                        >
+                    </center>
+                </td>
+                <td data-title="Edit">
+                    <button
+                        class="btn editbtn"
+                        name="print"
+                        value="{{student['email']}}"
+                        type="submit"
+                    >Print</button>
+                </td>
+            </form>
+        </tr>
+        {% endfor %}
+    {% endfor %}
+    {% else %}
+        <tr role="row" class="odd">
+            <td colspan="8">
+                <center>
+                    <h4 class="page-header">No Student Data Found!</h4>
+                </center>
+            </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+<br>
+{% if export %}
+<center>
+    <button id="btnExport" class="btn btn-info" style="width:50%;padding:10px">Export data</button>
+</center>
+{% endif %}
+
+{% endblock %}

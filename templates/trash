@@ -1,0 +1,1157 @@
+<!-- <div class="cont hide" id="question_splitter_2">
+                        <div id="question2" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 2 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname2" style="font-size:25px;">
+                                    3
+87
+-29
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans2"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_150"
+                                    name="150"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="2" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="2" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_3">
+                        <div id="question3" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 3 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname3" style="font-size:25px;">
+                                    3482
+713
+________
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans3"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_203"
+                                    name="203"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="3" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="3" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_4">
+                        <div id="question4" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 4 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname4" style="font-size:25px;">
+                                    6286
+387
+________
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans4"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_200"
+                                    name="200"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="4" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="4" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_5">
+                        <div id="question5" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 5 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname5" style="font-size:25px;"> 2 + 7 - 8 + 6 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans5"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_112"
+                                    name="112"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="5" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="5" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_6">
+                        <div id="question6" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 6 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname6" style="font-size:25px;"> 91 - 2 - 7 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans6"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_164"
+                                    name="164"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="6" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="6" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_7">
+                        <div id="question7" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 7 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname7" style="font-size:25px;">
+                                    4825
+167
+________
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans7"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_209"
+                                    name="209"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="7" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="7" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_8">
+                        <div id="question8" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 8 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname8" style="font-size:25px;"> 15 + 584 + 25 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans8"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_147"
+                                    name="147"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="8" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="8" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_9">
+                        <div id="question9" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 9 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname9" style="font-size:25px;">
+                                    69
+9
+9
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans9"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_132"
+                                    name="132"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="9" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="9" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_10">
+                        <div id="question10" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 10 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname10" style="font-size:25px;"> 724 - 43 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans10"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_161"
+                                    name="161"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="10" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="10" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_11">
+                        <div id="question11" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 11 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname11" style="font-size:25px;">
+                                    7489
+-932
+________
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans11"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_201"
+                                    name="201"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="11" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="11" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_12">
+                        <div id="question12" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 12 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname12" style="font-size:25px;"> 32 + 767 + 12 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans12"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_149"
+                                    name="149"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="12" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="12" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_13">
+                        <div id="question13" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 13 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname13" style="font-size:25px;"> 24 + 15 + 70 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans13"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_137"
+                                    name="137"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="13" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="13" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_14">
+                        <div id="question14" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 14 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname14" style="font-size:25px;">
+                                    64
+-7
+-8
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans14"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_177"
+                                    name="177"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="14" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="14" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_15">
+                        <div id="question15" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 15 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname15" style="font-size:25px;">
+                                    97
+-8
+-8
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans15"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_152"
+                                    name="152"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="15" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="15" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_16">
+                        <div id="question16" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 16 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname16" style="font-size:25px;">
+                                    7015
+930
+________
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans16"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_207"
+                                    name="207"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="16" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="16" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_17">
+                        <div id="question17" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 17 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname17" style="font-size:25px;">
+                                    66
+-6
+-6
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans17"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_175"
+                                    name="175"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="17" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="17" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_18">
+                        <div id="question18" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 18 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname18" style="font-size:25px;"> 12 + 283 + 34 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans18"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_145"
+                                    name="145"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="18" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="18" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_19">
+                        <div id="question19" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 19 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname19" style="font-size:25px;">
+                                    5726
+-132
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans19"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_197"
+                                    name="197"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="19" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="19" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_20">
+                        <div id="question20" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 20 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname20" style="font-size:25px;">
+                                    35
+-13
+727
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans20"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_128"
+                                    name="128"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="20" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="20" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_21">
+                        <div id="question21" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 21 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname21" style="font-size:25px;"> 88 - 5 + 2 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans21"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_120"
+                                    name="120"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="21" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="21" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_22">
+                        <div id="question22" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 22 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname22" style="font-size:25px;">
+                                    847
+-85
+-81
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans22"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_180"
+                                    name="180"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="22" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="22" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_23">
+                        <div id="question23" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 23 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname23" style="font-size:25px;"> 89 - 4 + 8 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans23"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_172"
+                                    name="172"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="23" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="23" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_24">
+                        <div id="question24" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 24 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname24" style="font-size:25px;">
+                                    50
+40
+-20
+10
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans24"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_115"
+                                    name="115"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="24" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="24" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_25">
+                        <div id="question25" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 25 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname25" style="font-size:25px;">
+                                    9064
+-709
+________
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans25"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_204"
+                                    name="204"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="25" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="25" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_26">
+                        <div id="question26" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 26 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname26" style="font-size:25px;"> 99 - 75 + 21 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans26"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_123"
+                                    name="123"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="26" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="26" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_27">
+                        <div id="question27" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 27 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname27" style="font-size:25px;"> 722 - 88 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans27"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_153"
+                                    name="153"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="27" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="27" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_28">
+                        <div id="question28" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 28 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname28" style="font-size:25px;">
+                                    7
+1
+-5
+6
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans28"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_113"
+                                    name="113"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="28" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="28" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_29">
+                        <div id="question29" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 29 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname29" style="font-size:25px;"> 43 + 35 - 55 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans29"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_121"
+                                    name="121"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="29" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="29" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_30">
+                        <div id="question30" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 30 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname30" style="font-size:25px;">
+                                    6
+1
+-5
+7
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans30"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_111"
+                                    name="111"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="30" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="30" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_31">
+                        <div id="question31" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 31 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname31" style="font-size:25px;"> 807 + 53 - 5 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans31"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_158"
+                                    name="158"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="31" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="31" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_32">
+                        <div id="question32" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 32 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname32" style="font-size:25px;">
+                                    9143
+-865
+________
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans32"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_199"
+                                    name="199"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="32" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="32" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_33">
+                        <div id="question33" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 33 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname33" style="font-size:25px;"> 91 + 92 - 82 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans33"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_133"
+                                    name="133"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="33" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="33" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_34">
+                        <div id="question34" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 34 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname34" style="font-size:25px;">
+                                    11
+37
+22
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans34"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_146"
+                                    name="146"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="34" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="34" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_35">
+                        <div id="question35" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 35 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname35" style="font-size:25px;"> 76 - 55 + 24 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans35"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_118"
+                                    name="118"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="35" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="35" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_36">
+                        <div id="question36" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 36 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname36" style="font-size:25px;"> 654 - 72 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans36"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_155"
+                                    name="155"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="36" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="36" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_37">
+                        <div id="question37" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 37 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname37" style="font-size:25px;"> 93 + 52 - 45 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans37"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_141"
+                                    name="141"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="37" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="37" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_38">
+                        <div id="question38" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 38 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname38" style="font-size:25px;"> 35 + 24 - 13 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans38"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_131"
+                                    name="131"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="38" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="38" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_39">
+                        <div id="question39" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 39 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname39" style="font-size:25px;">
+                                    59
+21
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans39"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_148"
+                                    name="148"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="39" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="39" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_40">
+                        <div id="question40" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 40 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname40" style="font-size:25px;">
+                                    2
+5
+3
+9
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans40"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_144"
+                                    name="144"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="40" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="40" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_41">
+                        <div id="question41" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 41 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname41" style="font-size:25px;">
+                                    973
+657
+________
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans41"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_210"
+                                    name="210"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="41" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="41" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_42">
+                        <div id="question42" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 42 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname42" style="font-size:25px;"> 13 + 85 - 44 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans42"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_125"
+                                    name="125"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="42" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="42" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_43">
+                        <div id="question43" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 43 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname43" style="font-size:25px;">
+                                    56
+34
+8
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans43"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_142"
+                                    name="142"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="43" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="43" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_44">
+                        <div id="question44" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 44 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname44" style="font-size:25px;"> 445 - 32 + 75 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans44"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_129"
+                                    name="129"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="44" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="44" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_45">
+                        <div id="question45" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 45 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname45" style="font-size:25px;"> 34 - 3 + 6 - 7 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans45"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_116"
+                                    name="116"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="45" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="45" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_46">
+                        <div id="question46" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 46 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname46" style="font-size:25px;"> 63 + 21 + 42 =</pre>
+                                <input
+                                    class="form-control ans-box q_ans46"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_143"
+                                    name="143"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="46" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="46" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_47">
+                        <div id="question47" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 47 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname47" style="font-size:25px;">
+                                    613
+-21
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans47"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_165"
+                                    name="165"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="47" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="47" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_48">
+                        <div id="question48" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 48 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname48" style="font-size:25px;">
+                                    48
+8
+9
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans48"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_134"
+                                    name="134"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="48" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="48" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_49">
+                        <div id="question49" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 49 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname49" style="font-size:25px;">
+                                    67
+-52
+34
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans49"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_119"
+                                    name="119"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="49" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="49" class="next btn btn-success" type="button">Next</button>
+                    </div>
+                    <div class="cont hide" id="question_splitter_50">
+                        <div id="question50" class="devider" style="padding-left:15px;">
+                            <div class="devider-top">
+                                <b>Question. 50 :</b>
+                            </div>
+                            <center>
+                                <pre class="qtn-style questions page-header" id="qname50" style="font-size:25px;">
+                                    391
+-41
+-64
+______
+                                </pre>
+                                <input
+                                    class="form-control ans-box q_ans50"
+                                    type="text"
+                                    placeholder="enter answer here"
+                                    value=""
+                                    id="radio1_157"
+                                    name="157"
+                                >
+                            </center>
+                            <br>
+                        </div>
+                        <button id="50" class="previous cntribtn btn btn-success" type="button">Previous</button>
+                        <button id="50" class="next btn btn-success" type="submit">Finish</button>
+                    </div> -->

@@ -1,0 +1,245 @@
+{% extends "exam_base.html" %}
+
+{% block title %}
+OMAS Education Online Exam Portal
+{% endblock %}
+
+{% block content %}
+<div class="content">
+    <div class="container">
+        <form
+            class="form-horizontal"
+            role="form"
+            id="quiz_form"
+            method="post"
+            action=""
+        >
+            <div class="row devider">
+                <div class="col-md-8">
+                    <div class="cont" id="question_splitter_1">
+                        <form class="form visible">
+                            <center>
+                                <p style="margin-top: 50px;">
+                                    <h4>
+                                        <label for="question" id="qnum">#</label>
+                                        <label name="" id="question">Question text</label>
+                                    </h4>
+                                </p>
+                                <input
+                                    type="text"
+                                    id="answer"
+                                    name="answer"
+                                    style="margin-top:30px; width: 300px;"
+                                    required
+                                >
+                                <button
+                                    id="submit"
+                                    type="button"
+                                    class="btn btn-block btn-success"
+                                    style="margin-top:30px;width: 100px;;"
+                                >Submit</button>
+                            </center>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4 sticky">
+                    <div class="row " style="margin-top:10px;">
+                        <div class="col-md-7" style="margin-top:10px;">
+                            <p style="margin-top:5px;">
+                                <strong>Student Name -</strong>
+                                {{student['name']}}
+                            </p>
+                            <p>
+                                <strong>Institute Name -</strong>
+                                {{student['franchise']}}
+                            </p>
+                            <p>
+                                <strong>Support no. -</strong>
+                                {{student['phone']}}
+                            </p>
+                            <p>
+                                <strong>Subject Name -</strong>
+                                {{student['subject']}}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <center class="devider">
+                            <ul id="progressbar">
+                                <p>
+                                    <label for="">No of Questions</label>
+                                    <span id="">{{era['total_question']}}</span>
+                                </p>
+                                <!-- <p>
+                                    <label for="">No of Attempted Questions</label>
+                                    <span id="greenCounter">0</span>
+                                </p> -->
+                            </ul>
+                        </center>
+                    </div>
+                    <div class="row">
+                        <center>
+                            <b class="text-center text_underline">
+                                Time Remaining :
+                                <br>
+                                <h3 id="showtime"></h3>
+                                <!-- <iframe
+                                    frameborder="0"
+                                    noresize="noresize"
+                                    style="background: transparent; width: 100%; height:100%;"
+                                    src="../timer"
+                                ></iframe> -->
+                            </b>
+                            <br>
+                            <img src="../static/images/drb.gif" style="width:250px;height:auto;" class="img-responsive">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    var quizData = {{ data | safe }};
+    const question = document.getElementById('question');
+    const qnum = document.getElementById('qnum');
+    const submitBtn = document.getElementById('submit');
+    let user_ans = document.getElementById('answer');
+
+    let currentQuiz = 0;
+    let score = 0;
+    let response = [];
+
+
+    loadQuiz();
+    // window.onclose = confirmExit();
+
+    // function confirmExit() {
+    //     if (confirm("Do you want to close window?") == false) {
+    //         return false;
+    //     }
+    //     return true;
+    // }
+
+
+    function loadQuiz() {
+    const currentQuizData = quizData[currentQuiz];
+
+    question.innerText = currentQuizData['name'];
+    qnum.innerHTML = (currentQuiz + 1) + '. ';
+    user_ans.value = ""
+
+    }
+
+    submitBtn.addEventListener('click', ()=>{
+        user_ans = document.getElementById('answer');
+        let answer = user_ans.value;
+    response.push(answer);
+    // response[currentQuiz] = answer;
+    currentQuiz++;
+    // alert("you have successfully completed Quiz!")
+
+    if (currentQuiz < quizData.length) {
+        loadQuiz();
+    } else {
+        // document.write(typeof response)
+        if (confirm("Do you want to save changes?") == true) {
+            // $.ajax({
+            //     method: 'POST',
+            //     url: '/submit_exam',
+            //     data: {'response':response},
+            //     contentType: 'application/json',
+            //     success: function(res){console.log(res);}
+            //     })
+                fetch('/submit_exam', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(response)
+                })
+                // window.location = "/student_home";
+            }
+        }
+    })
+
+        var min = "{{era['duration']}}";
+        var sec = '0';
+function examTimer() {
+            if (parseInt(sec) >0) {
+
+                document.getElementById("showtime").innerHTML = min+" Minutes " + sec+" Seconds";
+                sec = parseInt(sec) - 1;                
+                tim = setTimeout("examTimer()", 1000);
+            }
+            else {
+
+                if (parseInt(min)==0 && parseInt(sec)==0){
+                    document.getElementById("showtime").innerHTML = min+" Minutes " + sec+" Seconds";
+                    alert("Your time is up! Thank You for attempting the exam!");
+                    sub();
+                        document.questionForm.minute.value=0;
+                        document.questionForm.second.value=0;
+                        
+
+                    }
+
+                if (parseInt(sec) == 0) {				
+                    document.getElementById("showtime").innerHTML = min+" Minutes " + sec+" Seconds";					
+                    min = parseInt(min) - 1;
+                    sec=59;
+                    tim = setTimeout("examTimer()", 1000);
+                }
+
+            }
+        }
+</script>
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr">
+    <div style="padding: 8px;">
+        <div>
+            <div class="logo">
+                <img
+                    src="../static/images/translate_24dp.png"
+                    width="20"
+                    height="20"
+                    alt="Google Translate"
+                >
+            </div>
+        </div>
+    </div>
+    <!-- <div class="top" style="padding: 8px; float: left; width: 100%;">
+        <h1 class="title gray">Original text</h1>
+    </div>
+    <div class="middle" style="padding: 8px;">
+        <div class="original-text"></div>
+    </div>
+    <div class="bottom" style="padding: 8px;">
+        <div class="started-activity-container">
+            <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
+            <div class="activity-root"></div>
+        </div>
+    </div>
+    <div class="status-message" style="display: none;"></div>
+</div>
+<div class="goog-te-spinner-pos">
+    <div class="goog-te-spinner-animation">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="goog-te-spinner"
+            width="96px"
+            height="96px"
+            viewBox="0 0 66 66"
+        >
+            <circle
+                class="goog-te-spinner-path"
+                fill="none"
+                stroke-width="6"
+                stroke-linecap="round"
+                cx="33"
+                cy="33"
+                r="30"
+            ></circle>
+        </svg>
+    </div> -->
+</div>
+{% endblock %}

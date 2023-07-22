@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}
+<h3 class="page-header">Edit {{test['name']}} profile</h3>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div id="imgcontainer">
+        <center></center>
+    </div>
+    <br>
+    <form action="#" method="post">
+        <table
+            id="myTable"
+            width="100%"
+            cellpadding="5"
+            cellspacing="5"
+        >
+            <tbody>
+                <tr>
+                    <th>Test Name</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="name"
+                            placeholder="email"
+                            value="{{test['name']}}"
+                            required=""
+                        >
+                    </td>
+                    <th>Duration</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="duration"
+                            placeholder="Password"
+                            value="{{test['duration']}}"
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Total Questions</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="total_q"
+                            placeholder="full_name"
+                            value="{{test['total_question']}}"
+                            readonly=""
+                        >
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <center>
+            <button
+                type="submit"
+                name="update"
+                class="btn btn-info"
+                value="Update_Student"
+                style="width:50%;margin:10px;"
+            >Update Franchise</button>
+            <button
+                type="reset"
+                name="reset"
+                class="btn btn-warning"
+                value="Reset_Form"
+                style="width:50%"
+            >Reset Data</button>
+        </center>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,70 @@
+{% extends "franch_base.html" %}
+{% block title %} Students Registered On The System{% endblock %}
+{% block content %}
+
+{% if msg %}
+<script>
+    alert("{{msg}}")
+</script>
+{% endif %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Student ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Course</th>
+            <th scope="col">Contact</th>
+            <th scope="col">Admitted Institute</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if students %}
+                {% for student in students %}
+        <tr role="row" class="odd">
+            <td data-title="Student ID" class="sorting_1">{{ loop.index }}</td>
+            <td data-title="Name">{{student['name']}}</td>
+            <td data-title="Course">{{student['subject']}}</td>
+            <td data-title="Phone">{{student['phone']}}</td>
+            <td data-title="Admitted Franchise">{{student['franchise']}}</td>
+            <form action="" method="post">
+                <td data-title="Edit">
+                    <button
+                        class="btn editbtn"
+                        name="student_edit"
+                        value="{{student['email']}}"
+                        type="submit"
+                    >Edit</button>
+                </td>
+                <td data-title="Delete">
+                    <button
+                        class="btn delbtn"
+                        id="delStud"
+                        name="student_delete"
+                        value="{{student['email']}}"
+                        type="submit"
+                    >Delete</button>
+                </td>
+            </form>
+        </tr>
+        {% endfor %}
+                    {% else %}
+        <tr role="row" class="odd">
+            <td colspan="8">
+                <center>
+                    <h4 class="page-header">No Student Data Found!</h4>
+                </center>
+            </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+<br>
+{% if export %}
+<center>
+    <button id="btnExport" class="btn btn-info" style="width:50%;padding:10px">Export data</button>
+</center>
+{% endif %}
+
+{% endblock %}

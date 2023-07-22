@@ -1,0 +1,61 @@
+{% extends "student_base.html" %}
+
+{% block title %}
+SELECT YOUR LEVEL TO GIVE EXAM
+{% endblock %}
+
+{% block content %}
+<div class="message_error message_div bg-primary white-test" style="display: none;">
+    {% if msg %}
+    <script>
+        alert('{{msg}}');
+    </script>
+    {% endif %}
+    <!-- <p class="text-center"> User has allreaddy attempted this exam, Please choose another Exam or Contact your Admin..</p> -->
+</div>
+<form
+    method="post"
+    id="f1"
+    action=""
+    target="_blank"
+>
+    <div class="row">
+        <center>
+            <h3 class="page-header"></h3>
+        </center>
+        <input
+            type="hidden"
+            value="43"
+            name="test_test_id"
+            class="form-control"
+        >
+        <input
+            type="hidden"
+            value="1"
+            class="form-control"
+            name="num_questions"
+        >
+        <center>
+            <select
+                id="test"
+                name="test"
+                class="form-control"
+                style="width: 500px;"
+            >
+                <option value="test" name="test">Select Exam Name</option>
+                <option value="{{test}}">{{test}}</option>
+            </select>
+        </center>
+        <center>
+            <input
+                type="submit"
+                value="submit"
+                id="b1"
+                class="btn btn-block btn-success"
+                style="margin-top:30px;width: 500px;;"
+            >
+        </center>
+    </div>
+</form>
+</div>
+{% endblock %}

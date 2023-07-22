@@ -1,0 +1,212 @@
+Uri: http://omaseducation.com/
+File Name: C:\Downloaded Web Sites\omaseducation.com\index.htm
+Content Type: text/html
+
+Uri: http://omaseducation.com/admin_login.php
+File Name: C:\Downloaded Web Sites\omaseducation.com\admin_login.php.html
+Content Type: text/html
+
+Uri: http://omaseducation.com/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\omaseducation.com\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: http://omaseducation.com/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\omaseducation.com\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: http://omaseducation.com/css/login-style.css
+File Name: C:\Downloaded Web Sites\omaseducation.com\css\login-style.css
+Content Type: text/css
+
+Uri: http://omaseducation.com/css/responsive.css
+File Name: C:\Downloaded Web Sites\omaseducation.com\css\responsive.css
+Content Type: text/css
+
+Uri: http://omaseducation.com/css/style.css
+File Name: C:\Downloaded Web Sites\omaseducation.com\css\style.css
+Content Type: text/css
+
+Uri: http://omaseducation.com/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://omaseducation.com/fonts/fontawesome-webfont.eot?v=4.5.0
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://omaseducation.com/fonts/fontawesome-webfont.svg?v=4.5.0
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: http://omaseducation.com/fonts/fontawesome-webfont.ttf?v=4.5.0
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\fontawesome-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: http://omaseducation.com/fonts/fontawesome-webfont.woff?v=4.5.0
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\fontawesome-webfont.woff
+Content Type: application/font-woff
+
+Uri: http://omaseducation.com/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://omaseducation.com/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://omaseducation.com/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: http://omaseducation.com/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\glyphicons-halflings-regular.ttf
+Content Type: application/x-font-ttf
+
+Uri: http://omaseducation.com/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\glyphicons-halflings-regular.woff
+Content Type: application/font-woff
+
+Uri: http://omaseducation.com/fonts/glyphicons-halflings-regular.woff2
+File Name: C:\Downloaded Web Sites\omaseducation.com\fonts\glyphicons-halflings-regular.woff2
+Content Type: font/woff2
+
+Uri: http://omaseducation.com/franch_login.php
+File Name: C:\Downloaded Web Sites\omaseducation.com\franch_login.php.html
+Content Type: text/html
+
+Uri: http://omaseducation.com/images/abacus.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\abacus.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/banner/banner.jpg
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\banner\banner.jpg
+Content Type: image/jpeg
+
+Uri: http://omaseducation.com/images/black-logo.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\black-logo.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/compet.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\compet.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/dw.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\dw.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/franch.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\franch.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/gk.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\gk.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/history-img.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\history-img.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/icon.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\icon.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/left-arrow.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\left-arrow.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/login-back.gif
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\login-back.gif
+Content Type: image/gif
+
+Uri: http://omaseducation.com/images/logo-nav.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\logo-nav.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/main-bg.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\main-bg.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/map.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\map.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/right-arrow.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\right-arrow.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/slider/slider-img1.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\slider\slider-img1.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/slider/slider-img2.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\slider\slider-img2.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/slider/slider-img3.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\slider\slider-img3.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/slider/slider-img4.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\slider\slider-img4.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/stud.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\stud.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/support-pic.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\support-pic.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/teacher.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\teacher.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/team/1.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\team\1.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/team/2.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\team\2.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/team/4.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\team\4.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/top-arrow.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\top-arrow.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/images/vedik.png
+File Name: C:\Downloaded Web Sites\omaseducation.com\images\vedik.png
+Content Type: image/png
+
+Uri: http://omaseducation.com/index.php
+File Name: C:\Downloaded Web Sites\omaseducation.com\index.php.html
+Content Type: text/html
+
+Uri: http://omaseducation.com/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\omaseducation.com\js\bootstrap.min.js
+Content Type: application/x-javascript
+
+Uri: http://omaseducation.com/js/jquery-1.10.2.js
+File Name: C:\Downloaded Web Sites\omaseducation.com\js\jquery-1.10.2.js
+Content Type: application/x-javascript
+
+Uri: http://omaseducation.com/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\omaseducation.com\js\jquery.min.js
+Content Type: application/x-javascript
+
+Uri: http://omaseducation.com/js/main.js
+File Name: C:\Downloaded Web Sites\omaseducation.com\js\main.js
+Content Type: application/x-javascript
+
+Uri: http://omaseducation.com/student_login.php
+File Name: C:\Downloaded Web Sites\omaseducation.com\student_login.php.html
+Content Type: text/html
+
+Uri: https://maps.googleapis.com/maps/api/js?key=AIzaSyC7CoNb85riO0g8OzTmeReGa-bWg_w879I&callback=initMap
+File Name: C:\Downloaded Web Sites\omaseducation.com\maps\api\js
+Content Type: text/javascript
+

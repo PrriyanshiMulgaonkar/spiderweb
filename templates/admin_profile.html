@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}
+<h3 class="page-header">Profile</h3>
+{% endblock %}
+
+{% block content %}
+
+<form action="#" method="post">
+    <table
+        id="myTable"
+        width="50%"
+        cellpadding="5"
+        cellspacing="5"
+    >
+        <tbody>
+            <tr>
+                <th>email</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="email"
+                        placeholder="email"
+                        value="{{admin['email']}}"
+                        required=""
+                        readonly=""
+                    >
+                </td>
+                <th>Password</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="password"
+                        placeholder="Password"
+                        value="{{admin['password']}}"
+                        readonly=""
+                    >
+                </td>
+            </tr>
+            <tr>
+                <th>full name</th>
+                <td colspan="3">
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="full_name"
+                        placeholder="full_name"
+                        value="{{admin['name']}}"
+                    >
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <center>
+        <button
+            type="submit"
+            name="update"
+            class="btn btn-info"
+            value="Update_Student"
+            style="width:50%;margin:10px;"
+        >Update Data</button>
+        <button
+            type="reset"
+            name="reset"
+            class="btn btn-warning"
+            value="Reset_Form"
+            style="width:50%"
+        >Reset Data</button>
+    </center>
+</form>
+</div>
+{% endblock %}

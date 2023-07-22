@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block title %}
+Add New ERA Question
+{% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+    <table
+        id="myTable"
+        width="100%"
+        cellpadding="5"
+        cellspacing="5"
+    >
+        <tbody>
+            <tr>
+                <td>
+                    <label for="Test">Select Test</label>
+                </td>
+                <td colspan="2">
+                    <select name="test" class="form-control">
+                        {% for test in tests %}
+                        <option value="{{test['name']}}">{{test['name']}}</option>
+                        {% endfor%}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="era">Select ERA</label>
+                </td>
+                <td colspan="2">
+                    <select name="era" class="form-control">
+                        {% for era in eras %}
+                        <option value="{{era['name']}}">{{era['name']}}</option>
+                        {% endfor%}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="1st">Select Question Type</label>
+                </td>
+                <td>
+                    <select name="type" class="form-control">
+                        <option value="single">Single Choice</option>
+                        <option value="multiple">Multiple Choice</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Question">Question</label>
+                </td>
+                <td colspan="2">
+                    <textarea
+                        rows="5"
+                        cols="80"
+                        name="name"
+                        placeholder="Enter Question Here"
+                    ></textarea>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="1st">Enter Options</label>
+                </td>
+                <td colspan="2">
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="options"
+                        placeholder="Eg A B C D"
+                        value=""
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="1st">Answer</label>
+                </td>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="answer"
+                        placeholder="Answer"
+                        value=""
+                    >
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <center>
+        <button
+            type="submit"
+            name="add"
+            class="btn btn-info"
+            value="Update_Student"
+            style="width:50%;margin:10px;"
+        >Add Question</button>
+        <button
+            type="reset"
+            name="reset"
+            class="btn btn-warning"
+            value="Reset_Form"
+            style="width:50%"
+        >Reset Data</button>
+    </center>
+</form>
+</div>
+{% endblock %}

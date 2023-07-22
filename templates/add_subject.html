@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}
+Add New Subject
+{% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+    <table
+        id="myTable"
+        width="100%"
+        cellpadding="5"
+        cellspacing="5"
+    >
+        <tbody>
+            <tr>
+                <td>
+                    <label for="level">Enter Subject Name</label>
+                </td>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="name"
+                        placeholder="subject"
+                        value=""
+                    >
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <center>
+        <button
+            type="submit"
+            name="add"
+            class="btn btn-info"
+            value="Update_Student"
+            style="width:50%;margin:10px;"
+        >Add Subject</button>
+        <button
+            type="reset"
+            name="reset"
+            class="btn btn-warning"
+            value="Reset_Form"
+            style="width:50%"
+        >Reset Data</button>
+    </center>
+</form>
+</div>
+{% endblock %}

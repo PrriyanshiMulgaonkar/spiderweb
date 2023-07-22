@@ -1,0 +1,83 @@
+{% extends "franch_base.html" %}
+
+{% block title %}
+WELCOME IN FRANCHISE SECTION
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <!-- Main content -->
+    <section class="content">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-info">
+                    <div class="inner">
+                        <h3>
+                            <p>Student Admitted</p>
+                        </h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-group"></i>
+                    </div>
+                    <a href="./franch_view_students" class="small-box-footer">
+                        More info
+                        <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-danger">
+                    <div class="inner">
+                        <h3>
+                            <p>Exam Done</p>
+                        </h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <a href="./student_result  " class="small-box-footer">
+                        More info
+                        <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-success">
+                    <div class="inner">
+                        <h3>Student result</h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-signal"></i>
+                    </div>
+                    <a href="./student_results_era  " class="small-box-footer">
+                        More info
+                        <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-warning">
+                    <div class="inner">
+                        <h3>
+                            <label for="">{{v}}</label>
+                            <p>Unique Visitors</p>
+                        </h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+    </section>
+</div>
+{% endblock %}

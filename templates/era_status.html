@@ -1,0 +1,36 @@
+{% extends "student_base.html" %}
+
+{% block title %}
+ERA Attempted
+{% endblock %}
+
+{% block content %}
+<center>
+    <table class="table table-striped" style="width: 60%;">
+        <thead>
+            <tr>
+                <th scope="col">ERA Name</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if result %}
+            {% for s in result %}
+            <tr role="row" class="odd">
+                <td data-title="ERA Name">{{s}}</td>
+                <td data-title="Status">Given</td>
+            </tr>
+            {% endfor %}
+        {% else %}
+            <tr role="row" class="odd">
+                <td colspan="8">
+                    <center>
+                        <h4 class="page-header">No ERA Attempted!</h4>
+                    </center>
+                </td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</center>
+{% endblock %}

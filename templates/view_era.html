@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}ERA Registered On The System
+{% endblock %}
+{% block content %}
+
+{% if msg %}
+<script>
+    alert("{{msg}}")
+</script>
+{% endif %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">ERA ID</th>
+            <th scope="col">ERA Name</th>
+            <th scope="col">TEST Name</th>
+            <th scope="col">SUBJECT Name</th>
+            <th scope="col">Total Questions</th>
+            <th scope="col">Time Duration</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if eras %}
+        {% set export = "show" %}
+        {% for era in eras %}
+        <tr role="row" class="odd">
+            <td data-title="ERA ID" class="sorting_1">{{ loop.index }}</td>
+            <td data-title="ERA Name">{{era['name']}}</td>
+            <td data-title="TEST Name">{{era['test']}}</td>
+            <td data-title="SUBJECT Name">{{era['subject']}}</td>
+            <td data-title="Total Questions">{{era['total_question']}}</td>
+            <td data-title="Time Duration">{{era['duration']}}</td>
+            <form action="" method="post">
+                <td data-title="Edit">
+                    <button
+                        class="btn editbtn"
+                        name="edit"
+                        value="{{era['name']}}"
+                        type="submit"
+                    >Edit</button>
+                </td>
+                <td data-title="Delete">
+                    <button
+                        class="btn delbtn"
+                        id="delStud"
+                        name="delete"
+                        value="{{era['name']}}"
+                        type="submit"
+                    >Delete</button>
+                </td>
+            </form>
+        </tr>
+        {% endfor %}
+            {% else %}
+        <tr role="row" class="odd">
+            <td colspan="8">
+                <center>
+                    <h4 class="page-header">No ERA Data Found!</h4>
+                </center>
+            </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+<br>
+{% if export %}
+<center>
+    <button id="btnExport" class="btn btn-info" style="width:50%;padding:10px">Export data</button>
+</center>
+{% endif %}
+</div>
+{% endblock %}

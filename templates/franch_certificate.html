@@ -1,0 +1,127 @@
+{% extends "franch_base.html" %}
+
+{% block title %}
+<h3 class="page-header">Certificate</h3>
+{% endblock %}
+    {% block content %}
+    <div id="printableArea">
+        <div class="container">
+        <h3 class="style8 page-header" id="head" align="center"> STUDENT CERTIFICATE</h3>
+        <div class="col-md-12 table">
+            <div class="tb-row">
+                <section>
+                    <center>
+                        <h3 class="matter">
+                            <img
+                                src="../static/images/icon.png"
+                                height="50px"
+                                width="60"
+                                class="header-img"
+                            >
+                            Organisation Of Memory Activation System
+                        </h3>
+                        <p style="text-transform:uppercase;">Provisional Certificate for {{stud['subject']}} Examination</p>
+                    </center>
+                </section>
+            </div>
+            <table
+                id="myTable"
+                width="100%"
+                cellpadding="5"
+                cellspacing="5"
+            >
+                <tbody>
+                    <tr>
+                        <td>
+                            <p style="padding:5px;">
+                                <b> Seat number :</b>
+                                {{stud['_id']}}
+                                
+                            </p>
+                            <p style="padding:5px;">
+                                <b> Name :</b>
+                                {{stud['name']}}
+                            </p>
+                            <p style="padding:5px;">
+                                <b> Course :</b>
+                                {{stud['subject']}} {{stud['level']}}
+                            </p>
+                        </td>
+                        <td>
+                            <p style="padding:5px;">
+                                <b> Center Name :</b>
+                                {{stud['franchise']}}
+                            </p>
+                            <p style="padding:5px;">
+                                <b> Address :</b>
+                                {{stud['address']}}
+                            </p>
+                        </td>
+                        <td>
+                            <br>
+                            <img src="../static/uploads/' + stud['filename'])}}" class="stud-img" width="100">
+                            <br>
+                            <br>
+                            <p class="p-sign">Student Sign</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p style="padding:5px;">
+                                <b> Score/ Percentage:</b>
+                                {{score}}
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="tb-row">
+                <p>
+                    <b>Note :</b>
+                    If is there any Complaint from any Candidate about this examination, then candidate
+                        can send e-mail directly to
+                    <b>omasabacus@gmail.com</b>
+                </p>
+            </div>
+        </div>
+        <center>
+            <input
+                type="button"
+                id="printbutton"
+                class="btn btn-primary"
+                onclick="printDiv('printableArea')"
+                value="print Hallticket"
+                style="width:50%;margin:20px;"
+            >
+        </center>
+    </div>
+</div>
+<script>
+    function printDiv(divName) {
+
+        hideMe();
+        document.getElementById(divName).style.display = "block";
+
+        var originalContents = document.body.innerHTML;
+
+        document.body.innerHTML = originalContents;
+        window.print();
+        document.body.innerHTML = originalContents;
+        showMe();
+    }
+
+    function hideMe() {
+        document.getElementById("printbutton").style.visibility = "hidden";
+        document.getElementById("head").style.visibility = "hidden";
+
+    }
+
+    function showMe() {
+        document.getElementById("printbutton").style.visibility = "visible";
+        document.getElementById("head").style.visibility = "visible";
+
+    }
+</script>
+{% endblock %}
+
+        </html>

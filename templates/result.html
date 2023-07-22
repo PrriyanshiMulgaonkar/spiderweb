@@ -1,0 +1,38 @@
+{% extends "student_base.html" %}
+
+{% block title %}
+Exam Attempted
+{% endblock %}
+
+{% block content %}
+<center>
+    <table class="table table-striped" style="width: 60%;">
+        <thead>
+            <tr>
+                <th scope="col">Exam Name</th>
+                <th scope="col">Your Score</th>
+                <th scope="col">Total Questions</th>
+                <th scope="col">Percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if result %}
+            <tr role="row" class="odd">
+                <td data-title="EXAM Name">{{student['level']}}</td>
+                <td data-title="Your Score">{{result[0]}}</td>
+                <td data-title="Total Questions">{{result[1]}}</td>
+                <td data-title="Percentage">{{result[0] / result[1] * 100}}</td>
+            </tr>
+            {% else %}
+            <tr role="row" class="odd">
+                <td colspan="8">
+                    <center>
+                        <h4 class="page-header">No Exams Attempted!</h4>
+                    </center>
+                </td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</center>
+{% endblock %}

@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+
+{% block title %}
+<h3 class="page-header">Add New Student</h3>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div id="imgcontainer">
+        <center></center>
+    </div>
+    <br>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <table
+            id="myTable"
+            width="100%"
+            cellpadding="5"
+            cellspacing="5"
+        >
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="Upload your profile picture here.."></label>
+                        <input type="file" name="photo" id="img">
+                    </td>
+                </tr>
+                <tr>
+                    <th>email</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="email"
+                            placeholder="email"
+                            value=""
+                            required=""
+                        >
+                    </td>
+                    <th>Password</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="password"
+                            placeholder="Password"
+                            value=""
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <th>full name</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="full_name"
+                            placeholder="full_name"
+                            value=""
+                            required=""
+                        >
+                    </td>
+                    <th>Aadhar No.</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="aadhar"
+                            placeholder="adhar no."
+                            maxlength="12"
+                            value=""
+                            required=""
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>
+                        <input
+                            type="date"
+                            class="form-control"
+                            id="usr"
+                            name="dob"
+                            placeholder="Date of Birth"
+                            value=""
+                            required=""
+                        >
+                    </td>
+                    <th>Date Of Joining</th>
+                    <td>
+                        <input
+                            type="date"
+                            class="form-control"
+                            id="usr"
+                            name="doj"
+                            placeholder="date of joining"
+                            value=""
+                            required=""
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Contact</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="phone"
+                            placeholder="phone number"
+                            maxlength="10"
+                            value=""
+                            required=""
+                        >
+                    </td>
+                    <th>Admitted franchise institute</th>
+                    <td>
+                        <select name="franchise" class="form-control">
+                            {% for franchise in franchises %}
+                            <option value="{{franchise['name']}}">{{franchise['name']}}</option>
+                            {% endfor%}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Subject</th>
+                    <td>
+                        <select name="subject" class="form-control">
+                            {% for subject in subjects %}
+                            <option value="{{subject['name']}}">{{subject['name']}}</option>
+                            {% endfor%}
+                        </select>
+                    </td>
+                    <th>Level</th>
+                    <td>
+                        <select
+                            name="level"
+                            id="test_id"
+                            class="form-control"
+                            required=""
+                        >
+                            {% for t in tests %}
+                            <option value="{{t['name']}}">{{t['name']}}</option>
+                            {% endfor%}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>School Name</th>
+                        <td>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="usr"
+                                name="school"
+                                placeholder="School Name"
+                                value=""
+                                required=""
+                            >
+                        </td>
+                        <th>Address</th>
+                        <td>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="usr"
+                                name="address"
+                                placeholder="address"
+                                value=""
+                                required=""
+                            >
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <center>
+               <button
+                    type="submit"
+                    name="add"
+                    class="btn btn-info"
+                    value="Update_Student"
+                    style="width:50%;margin:10px;"
+                >Add Student</button>
+                <button
+                    type="reset"
+                    name="reset"
+                    class="btn btn-warning"
+                    value="Reset_Form"
+                    style="width:50%"
+                >Reset Data</button>
+            </center>
+        </form>
+    </div>
+    {% endblock %}

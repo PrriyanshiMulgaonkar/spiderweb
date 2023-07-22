@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+
+{% block title %}
+<h3 class="page-header">Edit {{franchise['name']}} profile</h3>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div id="imgcontainer">
+        <center></center>
+    </div>
+    <br>
+    <form action="#" method="post">
+        <table
+            id="myTable"
+            width="100%"
+            cellpadding="5"
+            cellspacing="5"
+        >
+            <tbody>
+                <tr>
+                    <th>email</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="email"
+                            placeholder="email"
+                            value="{{franchise['email']}}"
+                            required=""
+                        >
+                    </td>
+                    <th>Password</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="password"
+                            placeholder="Password"
+                            value="{{franchise['password']}}"
+                            readonly=""
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Institute name</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="full_name"
+                            placeholder="full_name"
+                            value="{{franchise['name']}}"
+                            required=""
+                        >
+                    </td>
+                    <th>Institute Director name</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="dir_name"
+                            placeholder="full_name"
+                            value="{{franchise['dir_name']}}"
+                            required=""
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Aadhar No.</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="aadhar"
+                            placeholder="adhar no."
+                            maxlength="12"
+                            value="{{franchise['aadhar']}}"
+                            required=""
+                        >
+                    </td>
+                    <th>Contact</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="phone"
+                            placeholder="phone number"
+                            maxlength="10"
+                            value="{{franchise['phone']}}"
+                            required=""
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Courses Offered</th>
+                    <td>
+                        <label for="subject">{{franchise['subject']}}</label>
+                    </td>
+                    <th>Address</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="address"
+                            placeholder="address"
+                            value="{{franchise['address']}}"
+                            required=""
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Date of Joining</th>
+                    <td>
+                        <label for="date of joining">{{franchise['joining_date']}}</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <center>
+            <button
+                type="submit"
+                name="update"
+                class="btn btn-info"
+                value="Update_Student"
+                style="width:50%;margin:10px;"
+            >Update Franchise</button>
+            <button
+                type="reset"
+                name="reset"
+                class="btn btn-warning"
+                value="Reset_Form"
+                style="width:50%"
+            >Reset Data</button>
+        </center>
+    </form>
+</div>
+{% endblock %}

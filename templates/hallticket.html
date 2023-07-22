@@ -1,0 +1,142 @@
+{% extends "student_base.html" %}
+
+{% block content %}
+<div id="printableArea">
+    <div class="container">
+        <h3 class="style8 page-header" id="head" align="center"> STUDENT HALLTICKET</h3>
+        <div class="col-md-12 table">
+            <div class="tb-row">
+                <section>
+                    <center>
+                        <h3 class="matter">
+                            <img
+                                src="../static/images/icon.png"
+                                height="50px"
+                                width="60"
+                                class="header-img"
+                            >
+                            Organisation Of Memory Activation System
+                        </h3>
+                        <p style="text-transform:uppercase;">HALL TICKET FOR Abacus EXAMINATION (February 2023)</p>
+                    </center>
+                </section>
+            </div>
+            <table
+                id="myTable"
+                width="100%"
+                cellpadding="5"
+                cellspacing="5"
+            >
+                <tbody>
+                    <tr>
+                        <td>
+                            <p style="padding:5px;">
+                                <b> Seat number :</b>
+                                {{student['_id']}}
+                                
+                            </p>
+                            <p style="padding:5px;">
+                                <b> Name :</b>
+                                {{student['name']}}
+                            </p>
+                            <p style="padding:5px;">
+                                <b> Course :</b>
+                                {{student['subject']}}
+                            </p>
+                        </td>
+                        <td>
+                            <p style="padding:5px;">
+                                <b> Center Code :</b>
+                                71
+                            </p>
+                            <p style="padding:5px;">
+                                <b> Center Name :</b>
+                                Desai institute
+                            </p>
+                            <p style="padding:5px;">
+                                <b> Address :</b>
+                                {{student['address']}}
+                            </p>
+                        </td>
+                        <td>
+                            <br>
+                            <img src="../static/uploads/{{student['filename']}}" class="stud-img" width="100">
+                            <br>
+                            <br>
+                            <p class="p-sign">Student Sign</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="tb-row">
+                <p>
+                    <b>Note :</b>
+                    If is there any Complaint from any Candidate about this examination, then candidate
+                        can send e-mail directly to
+                    <b>omasabacus@gmail.com</b>
+                </p>
+            </div>
+            <div class="tb-row">
+                <ul>
+                    <li>
+                        Candidates are requested to make 2 copies of the “Candidate Information Form &amp; Hall Ticket” and complete
+                            both the copies with all relevant details &amp; photograph.
+                    </li>
+                    <li>
+                        Please submit one copy of this form duly filled in during the registration process. The other copy
+                            of Hall Ticket will be collected during the written test or interview process
+                    </li>
+                    <li>
+                        None will be allowed to enter the premises without the 2 copies of this form duly filled in &amp; photograph
+                            duly signed in both the copies.
+                    </li>
+                    <li>
+                        Candidates are requested to carry the Valid Identification/College ID (which has photograph) for
+                            Identity proof. Please note that failure to bring the identification with photograph &amp; the form
+                            duly filled in would disqualify them from appearing for the selection process.
+                    </li>
+                    <li>
+                        Please read the company profile, vacancy details &amp; instructions thoroughly in the next pages.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <center>
+            <input
+                type="button"
+                id="printbutton"
+                class="btn btn-primary"
+                onclick="printDiv(printableArea)"
+                value="print Hallticket"
+                style="width:50%;margin:20px;"
+            >
+        </center>
+    </div>
+</div>
+<script>
+    function printDiv(divName) {
+
+        hideMe();
+        document.getElementById(divName).style.display = "block";
+
+        var originalContents = document.body.innerHTML;
+
+        document.body.innerHTML = originalContents;
+        window.print();
+        document.body.innerHTML = originalContents;
+        showMe();
+    }
+
+    function hideMe() {
+        document.getElementById("printbutton").style.visibility = "hidden";
+        document.getElementById("head").style.visibility = "hidden";
+
+    }
+
+    function showMe() {
+        document.getElementById("printbutton").style.visibility = "visible";
+        document.getElementById("head").style.visibility = "visible";
+
+    }
+</script>
+{% endblock %}

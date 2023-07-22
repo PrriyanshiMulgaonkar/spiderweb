@@ -1,0 +1,20 @@
+{% extends "student_base.html" %}
+
+{% block title %}
+WELCOME IN STUDENT SECTION
+{% endblock %}
+
+{% block content %}
+<style>
+    body{
+        background:url("../static/images/banner/b4.jpg") no-repeat fixed;
+        background-size:cover;
+        /* width:100%; object-fit: cover; */
+    }
+</style>
+{% if msg %}
+<script>
+    alert("{{msg}}")
+</script>
+{% endif %}
+{% endblock %}

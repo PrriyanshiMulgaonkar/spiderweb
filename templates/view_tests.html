@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}Tests Registered On The System
+{% endblock %}
+{% block content %}
+
+{% if msg %}
+<script>
+    alert("{{msg}}")
+</script>
+{% endif %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Test ID</th>
+            <th scope="col">Test Name</th>
+            <th scope="col">Subject Name</th>
+            <th scope="col">Total Questions</th>
+            <th scope="col">Time Duration</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if tests %}
+        {% set export = "show" %}
+        {% for test in tests %}
+        <tr role="row" class="odd">
+            <td data-title="Test ID" class="sorting_1">{{ loop.index }}</td>
+            <td data-title="Test Name">{{test['name']}}</td>
+            <td data-title="Subject Name">{{test['subject']}}</td>
+            <td data-title="Total Questions">{{test['total_question']}}</td>
+            <td data-title="Time Duration">{{test['duration']}}</td>
+            <form action="" method="post">
+                <td data-title="Edit">
+                    <button
+                        class="btn editbtn"
+                        name="test_edit"
+                        value="{{test['name']}}"
+                        type="submit"
+                    >Edit</button>
+                </td>
+                <td data-title="Delete">
+                    <button
+                        class="btn delbtn"
+                        id="delStud"
+                        name="test_delete"
+                        value="{{test['name']}}"
+                        type="submit"
+                    >Delete</button>
+                </td>
+            </form>
+        </tr>
+        {% endfor %}
+            {% else %}
+        <tr role="row" class="odd">
+            <td colspan="8">
+                <center>
+                    <h4 class="page-header">No test Data Found!</h4>
+                </center>
+            </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+<br>
+{% if export %}
+<center>
+    <button id="btnExport" class="btn btn-info" style="width:50%;padding:10px">Export data</button>
+</center>
+{% endif %}
+</div>
+{% endblock %}

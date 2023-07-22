@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>OMAS EDUCATION | Student Page</title>
+        <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="../static/css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/css/table_responsive.css">
+        <link rel="stylesheet" href="../static/css/SiteStyle.css">
+        <link rel="icon" href="../static/images/icon.png">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../static/js/jquery.validate.min.js"></script>
+        <style>
+
+    body{
+      background:url("../static/images/back.jpg") no-repeat fixed;
+      background-size:cover;
+    }
+
+@media only screen and (max-width: 500px) 
+{
+    body{
+      background:url("../static/images/back.jpg") no-repeat fixed;
+      background-size:150% 145%;;
+    }
+  
+}
+    .navbar-brand{
+        padding:5px;
+    }
+    .navbar a{
+      color:#fff;
+    }
+    .navbar a:hover,a:focus{
+      color:#000;
+    }
+    .navbar ul a:hover{
+      color:#000;
+      background-color:#fff;
+    }
+    .dropdown-menu li a:hover{
+      color:#428bca;
+
+    }
+
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    .devider-top{
+
+        padding-bottom: 9px;
+        margin: 40px 0 20px;
+        border-bottom: 1px solid #eee;	
+    }
+    .devider-bottom{
+
+        padding-top: 9px;
+        margin: 20px 0 40px;
+        border-top: 1px solid #eee;	
+    }
+    .devider-left{
+
+        padding-right: 9px;
+        margin: 0px 20px 0px;
+        border-left: 1px solid #eee;	
+    }
+
+    .devider-right{
+
+        padding-left: 9px;
+        margin: 0px 20px 0px;
+        border-right: 1px solid #eee;	
+    }
+
+    .devider{
+
+        padding-bottom: 9px;
+        margin: 10px;
+        border: 1px solid #eee;	
+    }
+        </style>
+    </head>
+    <body onload="examTimer()">
+        <nav class="navbar navbar-fixed fixed-top navbar-dark bg-primary" id="nav">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button
+                        type="button"
+                        class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false"
+                    >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="../static/images/logo-nav.png">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="./student_home  ">
+                                Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a
+                                href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                ERA
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="./choose_era  ">Solve Era</a>
+                                </li>
+                                <li>
+                                    <a href="./era_status  ">Era status</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a
+                                href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Exam
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="./get_hallticket  ">Get Hallticket</a>
+                                </li>
+                                <li>
+                                    <a href="./choose_exam  ">Take Exam</a>
+                                </li>
+                                <li>
+                                    <a href="./exam_result  ">Result</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a
+                                href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                My Profile
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="./student_profile  ">Show Profile</a>
+                                </li>
+                                <li>
+                                    <a href="./change_password  ">Change password</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./logout  ">
+                                logout
+                                <span class="sr-only"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <style>
+@media screen and (min-width:720px)
+{
+  body{
+    background:url("") no-repeat fixed;
+    background-size:cover;
+  }
+}
+        </style>
+        <div class="container">
+            <style>
+.message_div
+{
+	font-weight:15px;
+	padding:5px;
+
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+            </style>
+        </div>
+        <center>
+            <h2 class="style8 page-header text-white" align="center">{% block title %} {% endblock %}</h2>
+        </center>
+        <br>
+        {% block content %} {% endblock %}
+        <script src="../static/js/jquery.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+    </body>
+</html>

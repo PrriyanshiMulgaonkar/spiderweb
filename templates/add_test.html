@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}
+<h3 class="page-header">Add New Test</h3>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div id="imgcontainer">
+        <center></center>
+    </div>
+    <br>
+    <form action="#" method="post">
+        <table
+            id="myTable"
+            width="100%"
+            cellpadding="5"
+            cellspacing="5"
+        >
+            <tbody>
+                <tr>
+                    <th>Subject Name</th>
+                    <td>
+                        <select name="subject" class="form-control">
+                            {% for subject in subjects %}
+                            <option value="{{subject['name']}}">{{subject['name']}}</option>
+                            {% endfor%}
+                        </select>
+                    </td>
+                    <th>Test Name</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="name"
+                            placeholder="name"
+                            value=""
+                            required=""
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Duration</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="duration"
+                            placeholder="duration"
+                            value=""
+                        >
+                    </td>
+                    <th>Total Questions</th>
+                    <td>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="usr"
+                            name="total_q"
+                            placeholder="total_question"
+                            value=""
+                        >
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <center>
+            <button
+                type="submit"
+                name="add"
+                class="btn btn-info"
+                value="Update_Student"
+                style="width:50%;margin:10px;"
+            >Add Test</button>
+            <button
+                type="reset"
+                name="reset"
+                class="btn btn-warning"
+                value="Reset_Form"
+                style="width:50%"
+            >Reset Data</button>
+        </center>
+    </form>
+</div>
+{% endblock %}

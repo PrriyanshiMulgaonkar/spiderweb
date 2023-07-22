@@ -1,0 +1,210 @@
+{% extends "student_base.html" %}
+
+{% block title %}
+{{student['name']}}'s profile
+{% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+    <table
+        id="myTable"
+        width="50%"
+        cellpadding="5"
+        cellspacing="5"
+    >
+        <tbody>
+            <tr>
+                <center>
+                    <td colspan="2">
+                        <img src="../static/uploads/' + student['filename']) }}" alt="" width="200">
+                    </td>
+                </center>
+            </tr>
+            <tr>
+                <th>email</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="email"
+                        placeholder="email"
+                        value="{{student['email']}}"
+                        required=""
+                        readonly=""
+                    >
+                </td>
+                <th>Password</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="password"
+                        placeholder="Password"
+                        value="{{student['password']}}"
+                        readonly=""
+                    >
+                </td>
+            </tr>
+            <tr>
+                <th>full name</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="full_name"
+                        placeholder="full_name"
+                        value="{{student['name']}}"
+                    >
+                </td>
+                <th>Adhar No.</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="aadhar"
+                        placeholder="adhar no."
+                        maxlength="12"
+                        value="{{student['aadhar']}}"
+                        required=""
+                        readonly=""
+                    >
+                </td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td>
+                    <input
+                        type="date"
+                        class="form-control"
+                        id="usr"
+                        name="dob"
+                        placeholder="Date of Birth"
+                        value="{{student['dob']}}"
+                        required=""
+                    >
+                </td>
+                <th>Date Of Joining</th>
+                <td>
+                    <input
+                        type="date"
+                        class="form-control"
+                        id="usr"
+                        name="doj"
+                        placeholder="date of joining"
+                        value="{{student['joining_date']}}"
+                        required=""
+                        readonly=""
+                    >
+                </td>
+            </tr>
+            <tr>
+                <th>Contact</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="phone"
+                        placeholder="phone number"
+                        maxlength="10"
+                        value="{{student['phone']}}"
+                        required=""
+                    >
+                </td>
+                <th>Admitted franchise institute</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="franchise"
+                        placeholder="phone number"
+                        maxlength="10"
+                        value="{{student['franchise']}}"
+                        required=""
+                        readonly=""
+                    >
+                </td>
+            </tr>
+            <tr>
+                <th>Subject</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="phone"
+                        placeholder="phone number"
+                        maxlength="10"
+                        value="{{student['franchise']}}"
+                        required=""
+                        readonly=""
+                    >
+                </td>
+                <th>Level</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="level"
+                        placeholder="phone number"
+                        maxlength="10"
+                        value="{{student['level']}}"
+                        required=""
+                        readonly=""
+                    >
+                </td>
+            </tr>
+            <tr>
+                <th>School Name</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="school"
+                        placeholder="School Name"
+                        value="{{student['school']}}"
+                        required=""
+                    >
+                </td>
+                <th>Address</th>
+                <td>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="usr"
+                        name="address"
+                        placeholder="address"
+                        value="{{student['address']}}"
+                        required=""
+                    >
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <center>
+        <button
+            type="submit"
+            name="update"
+            class="btn btn-info"
+            value="Update_Student"
+            style="width:50%;margin:10px;"
+        >Update Data</button>
+        <button
+            type="reset"
+            name="reset"
+            class="btn btn-warning"
+            value="Reset_Form"
+            style="width:50%"
+        >Reset Data</button>
+    </center>
+</form>
+</div>
+{% endblock %}
